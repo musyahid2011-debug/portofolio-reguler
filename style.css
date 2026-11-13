@@ -1,0 +1,10 @@
+/* Tailwind sudah mengurus hampir semua tampilan dan responsive lewat class.
+   File ini hanya untuk CSS tambahan yang kecil. */
+
+/* Gulir halus saat menu diklik */
+html { scroll-behavior: smooth; }
+
+/* Hormati pengguna yang mematikan animasi di perangkatnya */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
